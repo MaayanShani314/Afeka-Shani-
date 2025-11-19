@@ -1,0 +1,52 @@
+<html>
+<head>
+  <title>The 5 most beautiful places I would like to visit</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>The 5 most beautiful places I would like to visit</h1>
+    Choose one of the places from the menu or map below to learn more:
+  </header>
+
+  <nav class="main-nav">
+    <ul type="square">
+      <li><a href="place1.html">Place 1 — Golden Pavilion in Kyoto (Japan)</a></li><br/>
+      <li><a href="place2.html">Place 2 — Ko Phi Phi Island in Thailand</a></li><br/>
+      <li><a href="place3.html">Place 3 — Piazza San Marco in Italy</a></li><br/>
+      <li><a href="place4.html">Place 4 — Brooklyn Bridge in New York</a></li><br/>
+      <li><a href="place5.html">Place 5 — Narikala Fortress in Georgia</a></li><br/>
+    </ul>
+  </nav>
+
+  <main class="content">
+    <section class="intro">
+      <h1>Interactive Map</h1>
+      <br/>Click on a region of the world map to visit that destination.
+
+      <img src="map.jpg" alt="The 5 most beautiful places" usemap="#placesMap" width="1152" height="768" class="site-map">
+
+	<map name="placesMap">
+  	<!-- Japan -->
+ 	 <area shape="rect" coords="0,0,576,384" href="place1.html" alt="Japan - Kyoto">
+
+  	<!-- Italy -->
+  	<area shape="rect" coords="576,0,1152,384" href="place3.html" alt="Italy - Piazza San Marco">
+
+  	<!-- Georgia -->
+  	<area shape="rect" coords="0,384,384,768" href="place5.html" alt="Georgia - Narikala Fortress">
+
+  	<!-- Thailand -->
+  	<area shape="rect" coords="384,384,768,768" href="place2.html" alt="Thailand - Ko Phi Phi">
+
+  	<!-- New York -->
+  	<area shape="rect" coords="768,384,1152,768" href="place4.html" alt="New York - Brooklyn Bridge">
+	</map>
+    </section>
+  </main>
+
+   <footer class="site-footer">
+    <p>© Maayan Shani - Web development</p>
+
+</body>
+</html>
