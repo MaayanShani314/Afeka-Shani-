@@ -12,5 +12,6 @@ The homepage includes navigation links to the five pages and a static map image.
 Each page contains text, images.
 
 ## Website Link (GitHub Pages)
-[https://<github-username>.github.io/Afeka<FamilyName>/](https://maayanshani314.github.io/Afeka-Shani-/)
+https://maayanshani314.github.io/Afeka-Shani-/
+
 
